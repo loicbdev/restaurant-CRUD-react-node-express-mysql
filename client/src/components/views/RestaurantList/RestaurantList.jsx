@@ -7,9 +7,9 @@ function RestaurantList() {
   const { restaurants } = useContext(RestaurantContext);
 
   return (
-    <div>
-      <h2 className="restaurantlist-title">Liste de restaurants :</h2>
-      <div className="restaurantList">
+    <div className="restaurants">
+      <h2 className="restaurantsListTitle">Liste de restaurants :</h2>
+      <div className="restaurantsList">
       {restaurants.map((restaurant) => (
         <RestaurantItem key={restaurant.id} {...restaurant} />
       ))}

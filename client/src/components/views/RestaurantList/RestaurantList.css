@@ -1,13 +1,13 @@
-.restaurantlist-title {
+.restaurantsListTitle {
     margin: 3rem;
     text-align: center;
 }
 
-.restaurantList {
+.restaurantsList {
     display: flex;
     flex-direction: row;
     justify-content: center;
     flex-wrap: wrap;
-    padding-bottom: 3rem;
+    padding: 1rem 10rem;
     align-items: center;
 }
