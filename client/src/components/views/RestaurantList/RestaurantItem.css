@@ -1,9 +1,10 @@
 ul {
-    width: 20rem;
+    width: 15rem;
     margin: 0.5rem;
     text-align: center;
     padding: 1rem;
     background-color: rgb(190, 186, 186);
+    border-radius: 10px;
 }
 
 li {
