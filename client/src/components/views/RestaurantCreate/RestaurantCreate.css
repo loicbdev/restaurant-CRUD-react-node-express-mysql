@@ -3,5 +3,10 @@
     flex-direction: column;
     width: 100%;
     align-items: center;
+    margin-top: 1rem;
+}
+
+.submitButton {
+    padding: 0.5rem;
     margin: 2rem;
 }

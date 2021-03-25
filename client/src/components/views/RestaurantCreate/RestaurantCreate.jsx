@@ -33,18 +33,14 @@ function RestaurantCreate() {
   return (
     <form className="createForm" onSubmit={submit}>
       <label>
-        <span>Restaurant's name: </span>
+        <p>Nom du restaurant : </p>
         <input type='text' name='name' onChange={change} />
       </label>
-      <br/>
-      <br/>
       <label>
-        <span>Restaurant's city: </span>
+        <p>Ville : </p>
         <input type='text' name='city' onChange={change} />
       </label>
-      <br/>
-      <br/>
-      <input type='submit' value='Send' />
+      <input className="submitButton" type='submit' value='Envoyer' />
     </form>
   );
 }
