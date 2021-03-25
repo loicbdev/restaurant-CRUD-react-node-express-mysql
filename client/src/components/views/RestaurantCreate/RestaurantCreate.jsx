@@ -1,4 +1,5 @@
 import React, { useContext, useState } from 'react';
+import './RestaurantCreate.css';
 import axios from 'axios';
 import { findAll } from '../../../services/RestaurantApi';
 import { RestaurantContext } from '../../../contexts/RestaurantContext';
@@ -30,7 +31,7 @@ function RestaurantCreate() {
   };
 
   return (
-    <form onSubmit={submit}>
+    <form className="createForm" onSubmit={submit}>
       <label>
         <span>Restaurant's name: </span>
         <input type='text' name='name' onChange={change} />
