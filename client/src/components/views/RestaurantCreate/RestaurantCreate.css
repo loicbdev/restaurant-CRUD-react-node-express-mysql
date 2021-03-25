@@ -1,0 +1,7 @@
+.createForm {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    align-items: center;
+    margin: 2rem;
+}
