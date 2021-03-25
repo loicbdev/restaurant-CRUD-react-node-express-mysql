@@ -40,7 +40,7 @@ function RestaurantCreate() {
         <p>Ville : </p>
         <input type='text' name='city' onChange={change} />
       </label>
-      <input className="submitButton" type='submit' value='Envoyer' />
+      <input className="submitButton" type='submit' value='Ajouter' />
     </form>
   );
 }
