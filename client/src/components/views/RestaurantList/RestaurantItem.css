@@ -3,7 +3,8 @@ ul {
     margin: 0.5rem;
     text-align: center;
     padding: 1rem;
-    background-color: rgb(190, 186, 186);
+    background-color: rgb(14, 221, 193);
+    box-shadow: 3px 3px 5px rgb(198, 200, 200);
     border-radius: 10px;
 }
 
